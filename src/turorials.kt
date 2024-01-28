@@ -1,6 +1,7 @@
 
 fun main() {
-    println("hello peter");
+    var name: String = "mario";
+    println("hello $name");
 }
 
 
