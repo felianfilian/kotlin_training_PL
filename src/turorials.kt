@@ -1,7 +1,8 @@
 
 fun main() {
-    var x = "super";
-    println(x.toUpperCase());
+    var x = 4;
+    var y = 5
+    println(x != y);
 }
 
 
