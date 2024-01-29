@@ -2,7 +2,12 @@
 fun main() {
     var x = 4;
     var y = 5
-    println(x != y);
+    if(x < y) {
+        println("yeah");
+    } else {
+        println("oh no");
+    }
+
 }
 
 
