@@ -1,10 +1,13 @@
 
 fun main() {
-    print("your input: ")
+    print("number: ")
     var myInput = readln();
     println();
     print("output: ")
-    println(myInput);
+    if(myInput != null) {
+        println(myInput.toInt() * myInput.toInt());
+    }
+
 }
 
 
