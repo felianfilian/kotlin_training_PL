@@ -1,5 +1,18 @@
 
 fun main() {
+    loopTest();
+    // checkAge();
+}
+
+fun loopTest() {
+    var x = 0;
+    while (x < 3) {
+        println(x);
+        x++;
+    }
+}
+
+fun checkAge() {
     print("age: ");
     var myInput = readln();
     if(myInput != null) {
