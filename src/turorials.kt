@@ -5,9 +5,10 @@ fun main() {
 }
 
 fun loopTest() {
+    var names = arrayOf("mario", "luigi")
     var x = 0;
-    while (x < 3) {
-        println(x);
+    while (x < names.size) {
+        println(names[x]);
         x++;
     }
 }
