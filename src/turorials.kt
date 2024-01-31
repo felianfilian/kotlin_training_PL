@@ -5,9 +5,7 @@ fun main() {
 }
 
 fun loopTest() {
-    var names = arrayOf("mario", "luigi")
-    
-    for(i in names) {
+    for(i in 1..10 step 2) {
         println(i);
     }
 }
