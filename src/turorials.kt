@@ -12,7 +12,7 @@ fun hw13() {
         var myInput = readln();
         if(myInput != null) sum += myInput.toFloat();
     }
-    println("median: $sum");
+    println("median: ${sum / 5}");
 }
 
 fun loopTest() {
