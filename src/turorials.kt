@@ -6,10 +6,9 @@ fun main() {
 
 fun loopTest() {
     var names = arrayOf("mario", "luigi")
-    var x = 0;
-    while (x < names.size) {
-        println(names[x]);
-        x++;
+    
+    for(i in names) {
+        println(i);
     }
 }
 
