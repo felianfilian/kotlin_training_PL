@@ -1,8 +1,18 @@
 
 fun main() {
-hw13();
+
+listTest()
+//hw13();
 //loopTest();
     // checkAge();
+}
+
+fun listTest() {
+    var myList = mutableListOf<Int>(1,2);
+    myList.add(3);
+    myList.reverse();
+    myList.removeAt(1);
+    println(myList);
 }
 
 fun hw13() {
