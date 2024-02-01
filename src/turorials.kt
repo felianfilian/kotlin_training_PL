@@ -1,14 +1,20 @@
 
 fun main() {
-
-    hw14();
+hw15(); // greeting output
+    //hw14(); // fibocnacci row
 //listTest()
-//hw13();
+//hw13(); // get median
 //loopTest();
     // checkAge();
 }
 
+fun hw15() {
+    var greeting = "Hallo";
+    println(greeting);
+}
+
 fun hw14() {
+
     print("how many numbers: ");
     var numCount = readln().toInt();
     var actualNum = 0;
@@ -20,7 +26,6 @@ fun hw14() {
         nextNum = actualNum;
         actualNum = sum;
     }
-    print(numCount);
 }
 
 fun listTest() {
