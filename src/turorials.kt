@@ -1,10 +1,16 @@
 
 fun main() {
 
-listTest()
+    hw14();
+//listTest()
 //hw13();
 //loopTest();
     // checkAge();
+}
+
+fun hw14() {
+    var numCount = readln().toInt();
+    print(numCount);
 }
 
 fun listTest() {
