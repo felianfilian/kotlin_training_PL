@@ -9,8 +9,14 @@ hw15(); // greeting output
 }
 
 fun hw15() {
-    var greeting = "Hallo";
-    println(greeting);
+    print("country: ");
+    var country = readln();
+    when(country) {
+        in "india" -> print("Namaste");
+        in "usa" -> print("hello");
+        else -> print("wrong country");
+    }
+
 }
 
 fun hw14() {
