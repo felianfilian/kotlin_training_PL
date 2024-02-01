@@ -9,7 +9,14 @@ fun main() {
 }
 
 fun hw14() {
+    print("how many numbers: ");
     var numCount = readln().toInt();
+    var actualNum = 0;
+    var nextNum = 1;
+    for(i in 1..numCount) {
+        print("$actualNum, ");
+        actualNum = actualNum + nextNum;
+    }
     print(numCount);
 }
 
