@@ -11,14 +11,13 @@ fun main() {
 fun hw14() {
     print("how many numbers: ");
     var numCount = readln().toInt();
-    var lastNum = 0;
-    var actualNum = 1;
+    var actualNum = 0;
+    var nextNum = 1;
     var sum = 0;
-    print(0, )
     for(i in 1..numCount) {
         print("$actualNum, ");
-        sum = lastNum + actualNum;
-        lastNum = actualNum;
+        sum = actualNum + nextNum;
+        nextNum = actualNum;
         actualNum = sum;
     }
     print(numCount);
