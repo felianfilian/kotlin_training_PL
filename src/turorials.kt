@@ -30,7 +30,7 @@ fun primeCheck() {
     print(num.isPrime());
 }
 
-fun alternateNums(vararg numbers: Int) {
+fun alternateNums(vararg numbers: Int): Int {
     var result = 0;
     var toggle = true;
     for(number in numbers) {
@@ -38,11 +38,11 @@ fun alternateNums(vararg numbers: Int) {
         else result -= number;
         toggle = !toggle;
     }
-    println(result);
+    return result;
 }
 
 fun hw18() {
-    alternateNums(8,3,6,3);
+    print(alternateNums(8,3,6,3));
 }
 
 fun varargTest(vararg numbers: Int) {
