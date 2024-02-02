@@ -2,7 +2,9 @@
 fun main() {
 
 
-print(square(3));
+println(square(3));
+
+hw16();
 //hw15(); // greeting output
     //hw14(); // fibocnacci row
 //listTest()
@@ -14,6 +16,20 @@ print(square(3));
 fun square(num: Int): Int {
     var result = num * num;
     return result;
+}
+
+fun hw16() {
+    print("highest number: ");
+    var myInput = readln().toInt();
+    highestNum(myInput);
+}
+
+fun highestNum(num: Int) {
+    var sum = 0;
+    for(i in 1..num) {
+        sum += i;
+    }
+    println(sum);
 }
 
 fun hw15() {
