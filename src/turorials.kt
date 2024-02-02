@@ -1,7 +1,9 @@
 
 fun main() {
 
-    hw17();
+
+    varargTest(2,4,6,9);
+    //hw17();
 //println( addition(2, 3));
 //println(square(3));
 //hw16();
@@ -11,6 +13,13 @@ fun main() {
 //hw13(); // get median
 //loopTest();
     // checkAge();
+}
+
+fun varargTest(vararg numbers: Int) {
+    var array = intArrayOf(1,2,3);
+    var max = intArrayOf(4, *array, 5);
+    println(max[3]);
+    println(numbers[0]);
 }
 
 fun hw17() {
