@@ -1,8 +1,8 @@
 
 fun main() {
 
-
-    varargTest(2,4,6,9);
+    primeCheck();
+    //varargTest(2,4,6,9);
     //hw17();
 //println( addition(2, 3));
 //println(square(3));
@@ -13,6 +13,20 @@ fun main() {
 //hw13(); // get median
 //loopTest();
     // checkAge();
+}
+
+fun Int.isPrime(): Boolean {
+    for(i in 2 until this - 1) {
+        if (this % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+fun primeCheck() {
+    var num = 5;
+    print(num.isPrime());
 }
 
 fun varargTest(vararg numbers: Int) {
