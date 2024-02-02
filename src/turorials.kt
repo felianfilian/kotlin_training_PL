@@ -1,7 +1,8 @@
 
 fun main() {
 
-    primeCheck();
+    //primeCheck();
+    hw18();
     //varargTest(2,4,6,9);
     //hw17();
 //println( addition(2, 3));
@@ -27,6 +28,19 @@ fun Int.isPrime(): Boolean {
 fun primeCheck() {
     var num = 5;
     print(num.isPrime());
+}
+
+fun alternateNums(vararg numbers: Int) {
+    var result = numbers[0];
+    for(i in 1 until numbers.size) {
+        if(i % 2 == 0) result += numbers[i];
+        else result -= numbers[i];
+    }
+    println(result);
+}
+
+fun hw18() {
+    alternateNums(8,3,6,3);
 }
 
 fun varargTest(vararg numbers: Int) {
