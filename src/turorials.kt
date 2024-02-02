@@ -1,10 +1,9 @@
 
 fun main() {
 
-
-println(square(3));
-
-hw16();
+println( addition(2, 3));
+//println(square(3));
+//hw16();
 //hw15(); // greeting output
     //hw14(); // fibocnacci row
 //listTest()
@@ -12,6 +11,8 @@ hw16();
 //loopTest();
     // checkAge();
 }
+
+fun addition(num1: Int, num2: Int) = num1 + num2;
 
 fun square(num: Int): Int {
     var result = num * num;
