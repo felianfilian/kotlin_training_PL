@@ -1,11 +1,19 @@
 
 fun main() {
-hw15(); // greeting output
+
+
+print(square(3));
+//hw15(); // greeting output
     //hw14(); // fibocnacci row
 //listTest()
 //hw13(); // get median
 //loopTest();
     // checkAge();
+}
+
+fun square(num: Int): Int {
+    var result = num * num;
+    return result;
 }
 
 fun hw15() {
