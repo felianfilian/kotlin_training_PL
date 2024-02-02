@@ -31,10 +31,12 @@ fun primeCheck() {
 }
 
 fun alternateNums(vararg numbers: Int) {
-    var result = numbers[0];
-    for(i in 1 until numbers.size) {
-        if(i % 2 == 0) result += numbers[i];
-        else result -= numbers[i];
+    var result = 0;
+    var toggle = true;
+    for(number in numbers) {
+        if(toggle) result += number;
+        else result -= number;
+        toggle = !toggle;
     }
     println(result);
 }
