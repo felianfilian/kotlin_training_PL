@@ -1,7 +1,8 @@
 
 fun main() {
 
-println( addition(2, 3));
+    hw17();
+//println( addition(2, 3));
 //println(square(3));
 //hw16();
 //hw15(); // greeting output
@@ -10,6 +11,19 @@ println( addition(2, 3));
 //hw13(); // get median
 //loopTest();
     // checkAge();
+}
+
+fun hw17() {
+    var myNumbers = listOf(2,4,7,5,9);
+    print("search number: ");
+    var myInput = readln().toInt();
+    var myIndex = myNumbers.indexOf(myInput);
+    if(myIndex != -1) {
+        println(myIndex);
+    } else {
+        println("not in list");
+    }
+
 }
 
 fun addition(num1: Int, num2: Int) = num1 + num2;
