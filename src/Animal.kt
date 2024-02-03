@@ -1,7 +1,7 @@
-class Animal(
+open class Animal(
     var legs: Int,
 ) {
     init {
-        print("I am an animal");
+        println("I am an animal");
     }
 }

@@ -2,8 +2,9 @@ import java.awt.Rectangle
 
 fun main() {
 
+    inheritanceTest();
     //classTest();
-    hw19();
+    //hw19();
     //primeCheck();
     //hw18();
     //varargTest(2,4,6,9);
@@ -17,6 +18,10 @@ fun main() {
 //hw13(); // get median
 //loopTest();
     // checkAge();
+}
+
+fun inheritanceTest() {
+    var myPet = Dog();
 }
 
 fun classTest() {
