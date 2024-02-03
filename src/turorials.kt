@@ -20,7 +20,9 @@ fun main() {
 }
 
 fun classTest() {
-    var myRect = rectangle(3, 5);
+    var myRect = rectangle(3, 3);
+    print(myRect.area());
+    print(myRect.isSquare());
 }
 
 fun hw19() {
