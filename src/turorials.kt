@@ -1,7 +1,9 @@
+import java.awt.Rectangle
 
 fun main() {
 
-    hw19();
+    classTest();
+    //hw19();
     //primeCheck();
     //hw18();
     //varargTest(2,4,6,9);
@@ -17,8 +19,8 @@ fun main() {
     // checkAge();
 }
 
-fun .productOf(): Int {
-
+fun classTest() {
+    var myRect = rectangle(3, 5);
 }
 
 fun hw19() {
