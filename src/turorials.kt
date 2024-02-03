@@ -2,8 +2,8 @@ import java.awt.Rectangle
 
 fun main() {
 
-    classTest();
-    //hw19();
+    //classTest();
+    hw19();
     //primeCheck();
     //hw18();
     //varargTest(2,4,6,9);
@@ -25,9 +25,17 @@ fun classTest() {
     print(myRect.isSquare());
 }
 
+fun List<Int>.product(): Int {
+    var result = 1;
+    for(value in this) {
+        result *= value;
+    }
+    return result;
+}
+
 fun hw19() {
     var numbers = listOf(1,2,3,4);
-
+    print(numbers.product());
 }
 
 fun Int.isPrime(): Boolean {
