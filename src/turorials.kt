@@ -1,8 +1,9 @@
 
 fun main() {
 
+    hw19();
     //primeCheck();
-    hw18();
+    //hw18();
     //varargTest(2,4,6,9);
     //hw17();
 //println( addition(2, 3));
@@ -14,6 +15,15 @@ fun main() {
 //hw13(); // get median
 //loopTest();
     // checkAge();
+}
+
+fun .productOf(): Int {
+
+}
+
+fun hw19() {
+    var numbers = listOf(1,2,3,4);
+
 }
 
 fun Int.isPrime(): Boolean {
