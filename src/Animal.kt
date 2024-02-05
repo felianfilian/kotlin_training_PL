@@ -1,4 +1,4 @@
-open class Animal(
+abstract class Animal(
     var name: String,
     var legs: Int,
 ) {
@@ -9,4 +9,5 @@ open class Animal(
         name = newName
         println("My new name is: $name")
     }
+    abstract fun giveNoise(): String;
 }
