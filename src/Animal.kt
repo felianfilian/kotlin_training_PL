@@ -9,5 +9,7 @@ abstract class Animal(
         name = newName
         println("My new name is: $name")
     }
-    abstract fun giveNoise();
+    abstract fun giveNoise()
+
+    abstract fun eat()
 }

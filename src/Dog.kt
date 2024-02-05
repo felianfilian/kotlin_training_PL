@@ -5,4 +5,8 @@ class Dog() : Animal("Bello",4) {
     override fun giveNoise() {
         println("Wau Wau")
     }
+
+    override fun eat() {
+        println("YUMMY")
+    }
 }
