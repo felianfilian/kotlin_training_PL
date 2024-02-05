@@ -22,6 +22,7 @@ fun main() {
 
 fun inheritanceTest() {
     var myPet = Dog();
+    myPet.giveNoise();
     myPet.updateName("Holger");
 }
 
