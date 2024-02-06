@@ -2,7 +2,8 @@ import java.awt.Rectangle
 
 fun main() {
 
-    inheritanceTest();
+
+    //inheritanceTest();
     //classTest();
     //hw19();
     //primeCheck();
