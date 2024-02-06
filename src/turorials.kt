@@ -2,7 +2,7 @@ import java.awt.Rectangle
 
 fun main() {
 
-
+    objectsTest();
     //inheritanceTest();
     //classTest();
     //hw19();
@@ -19,6 +19,11 @@ fun main() {
 //hw13(); // get median
 //loopTest();
     // checkAge();
+}
+
+fun objectsTest() {
+    println(importantNumbers.PI)
+    println(importantNumbers.test())
 }
 
 fun inheritanceTest() {
